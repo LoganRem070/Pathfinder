@@ -61,9 +61,9 @@ function PathfinderMethods:_RandomMove()
 
 			if RootPart then
 				pos = Vector3.new(
-					RootPart.Position.X + math.random(0, 6), 
+					RootPart.Position.X + math.random(-6, 6), 
 					RootPart.Position.Y + math.random(0, 2), 
-					RootPart.Position.Z + math.random(0, 6)
+					RootPart.Position.Z + math.random(-6, 6)
 				)
 			end
 		end
